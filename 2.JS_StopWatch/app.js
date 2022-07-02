@@ -10,8 +10,7 @@ window.onload = function () {
   var Interval;
 
   buttonStart.onclick = function() {
-    
-    clearInterval(Interval);
+   
      Interval = setInterval(startTimer, 10);
   }
   
